@@ -138,10 +138,10 @@ _**•	Memory Utilisation**_
 
 
 •	**Network Throughput (Incoming and Outgoing Traffic)**
-- This command calculates the rate of network bytes received over the last 5 minutes.
+- This command calculates the rate of network bytes received or tranmistted over the last 5 minutes.
 - Sudden spikes in incoming or outgoing traffic may signify potential attacks or high usage.
 - Data Source: Prometheus
-- Incoming ```rate(node_network_transmit_bytes_total[5m])```
+- Incoming ```rate(node_network_receive_bytes_total[5m])```
 - Outgoing ```rate(node_network_transmit_bytes_total[5m])```
 
 ![image](https://github.com/user-attachments/assets/87d58c4d-63d7-44d8-9e58-e50f7ebedc9e)
