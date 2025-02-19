@@ -127,7 +127,7 @@ _**•	Memory Utilisation**_
 
 •	**Disk Saturation**
 - High disk read/write activity might indicate heavy workloads or bottlenecks.
-- This This query calculates the rate of disk read and write bytes over the last 5 minutes.
+- This query calculates the rate of disk read and write bytes over the last 5 minutes.
 - Data Source: Promethues
 - ```rate(node_disk_read_bytes_total[5m])```
 
