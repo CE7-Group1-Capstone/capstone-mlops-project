@@ -1,7 +1,7 @@
 [Go to Part B](getting_started_clc-B.md)
 
 ### ML Model Training & Publishing
-General a typical ML Pipeline has 3 workflow stages - Data Preparation, Model Training, Model Deployment, as depicted in the diagram below. 
+Generally, a typical ML Pipeline has 3 workflow stages - Data Preparation, Model Training, Model Deployment, as depicted in the diagram below. 
 ![ML Pipeline](https://github.com/user-attachments/assets/1dc7dcd8-a8c5-4944-b24a-31df6cf235fd)
 
 <br>
